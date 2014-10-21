@@ -1,11 +1,10 @@
-/* Getting the new tags to behave */
+
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
 	display:block;
 }
 mark, rp, rt, ruby, summary, time {
 	display:inline;
 }
-/* Global properties ======================================================== */
 html {
 	width:100%;
 }
@@ -103,7 +102,6 @@ p {
 	background:#fff;
 	border:1px solid #e5e5e5;
 }
-/*********************************boxes**********************************/
 .indent {
 	padding:0 15px;
 }
@@ -379,8 +377,7 @@ h6 {
 	line-height:25px;
 }
 div.content {
-	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
-	display: none;
+		display: none;
 	width: 410px;
 	height: 340px;
 	overflow: hidden;
@@ -434,7 +431,7 @@ div.nav-controls a.next {
 }
 div.slideshow-container {
 	position: relative;
-	height: 620px; /* This should be set to be at least the height of the largest image in the slideshow */
+	height: 620px; 
 	z-index:1;
 	width:620px;
 	margin-right:48px;
@@ -447,7 +444,7 @@ div.loader {
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 592px;
-	height: 470px; /* This should be set to be at least the height of the largest image in the slideshow */
+	height: 470px; 
 }
 div.slideshow {
 }
@@ -568,7 +565,7 @@ div.pagination span.ellipsis {
 	border: none;
 	padding: 5px 0 3px 2px;
 }
-/* -- gallery end --*/
+
 
 
 .list-1 li {
@@ -610,7 +607,7 @@ dl span {
 	width:98px;
 	font-weight:bold;
 }
-/***** contact form *****/
+
 #contact-form {
 	display:block;
 	width:100%;
