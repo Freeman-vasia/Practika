@@ -1,21 +1,8 @@
-/*
-	Variable Grid System.
-	Learn more ~ http://www.spry-soft.com/grids/
-	Based on 960 Grid System - http://960.gs/
-
-	Licensed under GPL and MIT.
-*/
-
-
-/* Containers
-----------------------------------------------------------------------------------------------------*/
 .container_12 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 960px;
 }
-/* Grid >> Global
-----------------------------------------------------------------------------------------------------*/
 
 .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
 	display:inline;
@@ -33,9 +20,6 @@
 .omega {
 	margin-right: 0;
 }
-/* Grid >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
-
 .container_12 .grid_1 {
 	width:60px;
 }
@@ -72,8 +56,6 @@
 .container_12 .grid_12 {
 	width:940px;
 }
-/* Prefix Extra Space >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
 
 .container_12 .prefix_1 {
 	padding-left:80px;
@@ -108,8 +90,6 @@
 .container_12 .prefix_11 {
 	padding-left:880px;
 }
-/* Suffix Extra Space >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
 
 .container_12 .suffix_1 {
 	padding-right:80px;
@@ -144,8 +124,6 @@
 .container_12 .suffix_11 {
 	padding-right:880px;
 }
-/* Push Space >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
 
 .container_12 .push_1 {
 	left:80px;
@@ -180,8 +158,6 @@
 .container_12 .push_11 {
 	left:880px;
 }
-/* Pull Space >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
 
 .container_12 .pull_1 {
 	left:-80px;
@@ -216,10 +192,6 @@
 .container_12 .pull_11 {
 	left:-880px;
 }
-/* Clear Floated Elements
-----------------------------------------------------------------------------------------------------*/
-
-/* http://sonspring.com/journal/clearing-floats */
 
 .clear {
 	clear: both;
@@ -229,7 +201,6 @@
 	width: 0;
 	height: 0;
 }
-/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
 
 .clearfix:after {
 	clear: both;
